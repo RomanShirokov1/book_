@@ -20,7 +20,6 @@ public:
     unsigned  int Year;
     string Publisher;
     unsigned int Pages;
-public:
     book(string aTitle, vector <string> anAuthors, unsigned  int anYear, string aPublisher, unsigned int aPages);
 };
 
@@ -32,7 +31,6 @@ public:
     unsigned int Instances; 
     vector <reader> Picked;
     vector <string> Debtors;
-public:
     catalog_book(string aTitle, vector <string> anAuthors, unsigned  int anYear, string aPublisher, unsigned int aPages, unsigned int anID, unsigned int aQuantity, unsigned int anInstances);
 };
 
